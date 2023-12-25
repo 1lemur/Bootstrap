@@ -1,0 +1,490 @@
+@font-face {
+  font-family: 'Mariupol';
+  src: local('Mariupol'), local('Mariupol-Regular'),
+    url('../fonts/Mariupol-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mariupol';
+  src: local('Mariupol Medium'), local('Mariupol-Medium'),
+    url('../fonts/Mariupol-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mariupol';
+  src: local('Mariupol Bold'), local('Mariupol-Bold'),
+    url('../fonts/Mariupol-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+body{
+  font-family: 'Mariupol';
+  font-size: 16px;
+  font-weight: 500;
+}
+a{
+  color: black !important;
+  text-decoration: none !important;
+}
+.arrow-img img{
+  width: 18px;
+  height: 18px;
+}
+.container-fluid{
+  padding: 0 2.8vw;
+}
+h1{
+  color: #000;
+  font-family: 'Unbounded';
+  font-size: 3.88vw;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+h4{
+  font-family: 'Mariupol';
+  font-size: 40px;
+  font-weight: 700;
+}
+p{
+  font-family: 'Mariupol';
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+/* header start */
+
+.nav-item{
+  background-color: #EAEBE6;
+  text-align: center;
+}
+.nav-item::after{
+  content: '';
+  display: block;
+  width: 100%;
+  background-color: black;
+  height: 3px;
+  transition: all .3s;
+  transform: scale(0);
+}
+.nav-item:hover::after{
+  transform: scale(1);
+}
+.header-top{
+  margin-bottom: 65px;
+  border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+/* header end */
+
+/* main start */
+
+.main-title h1{
+  margin-bottom: 0
+}
+.main-title{
+  margin-bottom: 65px;
+}
+.carousel-indicators{
+  margin: 0 2.8vw;
+}
+.carousel-caption{
+  left: 2.8vw;
+  right: auto;
+  text-align: start;
+}
+.carousel-caption h5{
+  font-family: 'Unbounded';
+  font-size: 35px;
+  font-weight: 400;
+}
+.carousel-caption a{
+  color: #F7F7F5 !important;
+  font-family: 'Mariupol';
+  font-size: 17px;
+  font-weight: 400;
+}
+.carousel-indicators [data-bs-target]{
+  width: 100% !important;
+}
+.carousel-slider-next-block{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.carousel-button-container{
+  text-align: center;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  color: #272727;
+  font-family: 'Mariupol';
+  font-size: 1.3vw;
+  font-weight: 400;
+  border: 0;
+  transition: all .3s ease-in;
+}
+main{
+  margin-bottom: 125px;
+}
+
+/* main end */
+
+/* Models start */
+
+.models-title h1{
+  margin-bottom: 0;
+}
+.models-title{
+  margin-bottom: 32px;
+}
+.models-sofa-left{
+  background-color: #EAEBE6;
+  max-width: 900px;
+  min-width: 60vw;
+  max-height: 900px;
+  padding: 20vw 6vw;
+}
+.models-sofa-left img{
+  max-width: 100%;
+}
+.sofa-desc{
+  color: #F7F7F5;
+  background-color: #284DFE;
+  padding: 1.74vw;
+  gap: 14.5vw;
+  transition: all .3s ease-in;
+}
+.sofa-desc h4{
+  font-family: 'Mariupol';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+.sofa-desc p{
+  color: #F7F7F5;
+  font-family: 'Mariupol';
+  font-size: 20px;
+  font-weight: 500;
+}
+.sofa-desc-photo{
+  display: none;
+  max-width: 100%;
+  height: 100%;
+  background: #EAEBE6;
+}
+.sofa-desc-photo img{
+  max-width: 100%;
+}
+.models-commode-desc{
+  max-width: 505px;
+  padding: 2.5vw 0 0 2.5vw;
+}
+.models-commode{
+  background-color: #EAEBE6;
+}
+.models-commode-img{
+  max-width: 693px;
+  width: 50vw;
+}
+.models-commode-img img{
+  max-width: 100%;
+}
+.models-commode-link{
+  padding: 0 2.5vw 1.8vw 0;
+}
+.puff-img img{
+  width: 100%;
+}
+.puff-img{
+  width: 50%;
+  background-color: #EAEBE6;
+}
+.puff-desc{
+  color: #F7F7F5 !important;
+  background-color: #284DFE;
+  padding: 1.74vw;
+  width: 50%;
+  transition: all .3s ease-in;
+}
+.puff-desc h4{
+  font-family: 'Mariupol';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+.puff-desc-text{
+  max-width: 380px;
+}
+.puff-desc p{
+  color: #F7F7F5;
+  font-family: 'Mariupol';
+  font-size: 20px;
+  font-weight: 500;
+}
+.models-puff{
+  margin-bottom: 175px;
+}
+
+/* Models end */
+
+/* News start */
+
+.news-title{
+  margin-bottom: 4.1vw;
+}
+.news-cards-container{
+  border-top: 5px solid #EAEBE6;
+}
+.news-card-thumb img{
+  width: 100%;
+  height: 100%;
+}
+.news-card-desc-text p{
+  max-width: 560px;
+}
+.news-card-date{
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.n-l{
+  border-bottom: 5px solid #EAEBE6;
+  margin-bottom: 25px;
+}
+.news-load-more{
+  cursor: pointer;
+  margin-bottom: 205px;
+}
+.news-load-more h4{
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* News end */
+
+/* Whats next? start */
+
+.wnext-title{
+  color: #272727;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 55px;
+}
+.wnext-card{
+  height: fit-content;
+  transition: all .2s ease-in-out;
+}
+.wnext-cards img{
+  width: 100%;
+}
+.wnext-desc{
+  font-size: 1.6vw;
+}
+.wnext-link{
+  max-width: 18px;
+}
+
+/* Whats next? end */
+
+/* Footer start */
+
+.footer-conect-container a img{
+  width: 3.6vw;
+}
+.footer-conect-container{
+  height: 36.5vw;
+}
+.footer-links-container{
+  border-top: 5px solid #EAEBE6;
+  height: fit-content; 
+  padding: 2vw;
+  color: #272727;
+  font-size: 1.388vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-links ul li::after, .footer-social-media ul li::after{
+  content: '';
+  display: block;
+  width: 100%;
+  margin-top: 3px;
+  background-color: black;
+  height: 3px;
+  transition: all .3s;
+  transform: scale(0);
+}
+.footer-links ul li:hover::after, .footer-social-media ul li:hover::after{
+  transform: scale(1);
+}
+.footer-conect-cont{
+  transition: all .3s ease-in-out;
+}
+
+/* Footer end */
+
+
+/* Hovers */
+
+@media (hover: hover){
+  .wnext-card:hover{
+    transform: scale(1.03);
+  }
+  .sofa-desc:hover, 
+  .puff-desc:hover{
+    background-color: #002aff;
+    transform: scale(1.01);
+  }
+  .carousel-button-container:hover{
+    background-color: white;
+    transform: scale(1.05);
+  }
+  .footer-conect-cont:hover{
+    transform: scale(1.03);
+  }
+}
+
+/* Hovers */
+
+/* Media requests */
+
+@media (max-width: 900px) {
+  .main-title{
+    margin-bottom: 4.513889vw; /* 65/1440 */
+  }
+  .header-top{
+    margin-bottom: 4.513889vw; /* 65/1440 */
+  }
+  main{
+    margin-bottom: 8.680556vw; /* 125/1440 */
+  }
+  .models-title{
+    margin-bottom: 2.222222vw; /* 32/1440 */
+  }
+  .models-puff{
+    margin-bottom: 12.15277vw; /* 175/1440 */
+  }
+  .news-load-more{
+    margin-bottom: 14.236111vw; /* 205/1440 */
+  }
+  .wnext-title{
+    margin-bottom: 3.819444vw; /* 55/1440 */
+  }
+}
+@media (max-width: 768px){
+  .news-card-thumb{
+    padding: 0 0 10px 0;
+  }
+  .news-card-desc{
+    padding: 0;
+  }
+  .news-card{
+    margin: 0 !important;
+  }
+  .navbar-brand img{
+    min-width: 150px;
+    width: 34vw;
+  }
+  h4{
+    font-size: 4vw !important; /* 40/1440 */
+  }
+  p{
+    font-size: 2.7vw !important; /* 20/1440 */
+  }
+  .arrow-img img{
+    min-width: 10px;
+    max-width: 18px;
+    width: 3vw;
+  }
+  .ntitle img{
+    min-width: 10px;
+    max-width: 18px;
+    width: 3vw;
+  }
+  .models-sofa-left img{
+    width: 60vw;
+  }
+  .news-load-more img{
+    max-width: 15px;
+  }
+  .news-card-date{
+    font-size: 16px;
+  }
+  .wnext-link{
+    min-width: 8px;
+    max-width: 18px;
+    width: 1vw !important;
+  }
+  .nav-link{
+    padding: 0 10px;
+  }
+  .navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-links-container a{
+    font-size: 14px;
+  }
+  .list-unstyled{
+    flex-direction: column;  
+    gap: 2px;  
+  }
+  .list-unstyled a{
+    width: 100%;
+    display: block;
+  }
+}
+@media (max-width: 500px){
+  .gap-4 {
+    gap: 0.5rem!important;
+  }
+  .footer-links-container{
+    border-top: 2px solid #EAEBE6;
+  }
+  .mb-4 {
+    margin-bottom: 0.5rem!important;
+  }
+  .gap-3 {
+    gap: 0.3rem!important;
+  }
+  .footer-links-container a{
+    font-size: 10px;
+  }
+  .list-unstyled{
+    gap: 1px;  
+  }
+  .models-sofa-left img{
+    width: 40vw;
+  }
+  .models-sofa-left{
+    padding: 10vw 3vw;  
+  }
+  .n-l{
+    margin-bottom: 10px;
+  }
+  .wnext-title{
+    font-size: 17px;
+  }
+  .wnext-desc{
+    font-size: 6.5px;
+  }
+}
+
+/* Media requests */
